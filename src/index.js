@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
  })
 
  function createTask(task){
-  let div = document.createElement('div')
-  let li = document.createElement('li')
-  let button = document.createElement('button')
+  const div = document.createElement('div')
+  const li = document.createElement('li')
+  const button = document.createElement('button')
 
   button.addEventListener('click',function(){
       console.log('Clicking')
